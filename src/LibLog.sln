@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.25909.2
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibLog", "LibLog\LibLog.csproj", "{B94A94E1-3C80-40CC-A79A-244446B3F75A}"
 EndProject
@@ -33,6 +33,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibLog.Tests.NoLogFwkReferences", "LibLog.Tests.NoLogFwkReferences\LibLog.Tests.NoLogFwkReferences.csproj", "{71AF4769-AF1A-4913-A79D-08314EC06A63}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibLog.Tests.Serilog2", "LibLog.Tests.Serilog2\LibLog.Tests.Serilog2.csproj", "{6729DACD-2C0E-4A80-8C9B-51E3E811CFE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibLog2", "LibLog2\LibLog2.csproj", "{80DC12FE-5BB6-4D21-98E6-17CAFF12E03F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -88,6 +90,10 @@ Global
 		{6729DACD-2C0E-4A80-8C9B-51E3E811CFE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6729DACD-2C0E-4A80-8C9B-51E3E811CFE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6729DACD-2C0E-4A80-8C9B-51E3E811CFE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80DC12FE-5BB6-4D21-98E6-17CAFF12E03F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80DC12FE-5BB6-4D21-98E6-17CAFF12E03F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80DC12FE-5BB6-4D21-98E6-17CAFF12E03F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80DC12FE-5BB6-4D21-98E6-17CAFF12E03F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
